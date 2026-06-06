@@ -1,5 +1,5 @@
 {
-  "version": "0.3.1",
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.3.1.zip",
-  "notes": "Fix accounts.json bloat (deserialize append) + in-session reload leak guard + debounced position saves."
+  "version": "0.3.2",
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.3.2.zip",
+  "notes": "New toolbar icon."
 }
