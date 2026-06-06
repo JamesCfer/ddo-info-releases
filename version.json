@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.3.0.zip",
-  "notes": "Party DPS label, 10s/1m DPS averages, startup power-level fetch, scale-to-window UI, no debug files, self-update."
+  "version": "0.3.1",
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.3.1.zip",
+  "notes": "Fix accounts.json bloat (deserialize append) + in-session reload leak guard + debounced position saves."
 }
