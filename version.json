@@ -1,5 +1,5 @@
 {
-  "version": "0.4.3",
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.4.3.zip",
-  "notes": "Obfuscated build."
+  "notes": "Track every party member's power level (not just plugin users); each player still sees only their own.",
+  "version": "0.4.4",
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.4.4.zip"
 }
