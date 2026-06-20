@@ -1,5 +1,5 @@
 {
   "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.4.6.zip",
   "version": "0.4.6",
-  "notes": "Fix: fully clear all in-memory tracking state at each quest boundary so data no longer builds up across quests and crashes the client. Adds an event-independent quest-boundary watcher plus a safety cap on the entity tables. Numbers already sent to the server during a quest are unaffected."
+  "notes": "Fix: fully clear all in-memory tracking state at each quest boundary so data no longer builds up across quests and crashes the client. Quest changes are detected via OnMapAreaChange and the periodic quest poll; entering or leaving a quest wipes the fight, session totals, history, rolling buffers and entity caches, while moving between zones of the same quest keeps its running totals. Numbers already sent to the server during a quest are unaffected."
 }
