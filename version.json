@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.4.5.zip",
-  "version": "0.4.5",
-  "notes": "Performance: large CPU reduction on the combat-tracking hot path (cached identity/party lookups, skip no-op entity updates). No change to tracked numbers."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.4.6.zip",
+  "version": "0.4.6",
+  "notes": "Fix: fully clear all in-memory tracking state at each quest boundary so data no longer builds up across quests and crashes the client. Adds an event-independent quest-boundary watcher plus a safety cap on the entity tables. Numbers already sent to the server during a quest are unaffected."
 }
