@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.4.7.zip",
-  "version": "0.4.7",
-  "notes": "Show the plugin version next to the POWER LEVEL title in the popup's title bar."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.4.8.zip",
+  "version": "0.4.8",
+  "notes": "Fix the popup freezing / numbers stopping after a couple of quests: the refresh timer tick is now crash-proof so a transient error during a quest/zone transition can no longer wedge the overlay."
 }
