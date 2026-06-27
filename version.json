@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.4.9.zip",
-  "version": "0.4.9",
-  "notes": "Diagnostic build: writes a small crash log (ddopowerlevel.log in the plugin folder) capturing any exception plus global unhandled/UI-thread/unobserved-task errors, so the remaining crash can be pinned down and fixed in the next version."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.5.0.zip",
+  "version": "0.5.0",
+  "notes": "Fix the runaway CPU/lag (and the earlier popup freeze): the background state-writer used a fixed-period timer whose callback could overrun and re-enter, piling blocked SDK/network calls onto the thread pool. Writers are now non-reentrant and back off when the game is closed, so the plugin stays idle once you exit DDO."
 }
