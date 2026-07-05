@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.5.0.zip",
-  "version": "0.5.0",
-  "notes": "Fix the runaway CPU/lag (and the earlier popup freeze): the background state-writer used a fixed-period timer whose callback could overrun and re-enter, piling blocked SDK/network calls onto the thread pool. Writers are now non-reentrant and back off when the game is closed, so the plugin stays idle once you exit DDO."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.5.1.zip",
+  "version": "0.5.1",
+  "notes": "New toolbar icon; zip repackaged as plugins/<name>/ layout so DungeonHelper's Add-plugin dialog accepts it."
 }
