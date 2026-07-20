@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoloot/ddoloot-0.1.1.zip",
-  "version": "0.1.1",
-  "notes": "Fixes difficulty detection. The dungeon portal reports difficulty as a property DID (e.g. Dungeon_EpicReaperDifficulty), not a DifficultyType ordinal, and reading it as an ordinal threw ArgumentException and lost the chest. Labels now derive from the client's own property names (Epic Reaper, Epic Elite, Fabled, ...), and reaper skulls read from Dungeon_CachedReaperLevel."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoloot/ddoloot-0.2.0.zip",
+  "version": "0.2.0",
+  "notes": "Stack tracking: components that drop as 4/5/6/7 now group into one row with a stack-size distribution chart and average quantity. Item names are normalised (stack counts stripped, plurals singularised) since clients report the same item under different names. Fixes difficulty being polluted by loot rarity - DifficultyType also carries Common/Uncommon/Rare/Named values, which split a single run into bogus pools."
 }
