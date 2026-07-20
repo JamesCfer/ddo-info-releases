@@ -1,0 +1,5 @@
+{
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoloot/ddoloot-0.1.0.zip",
+  "version": "0.1.0",
+  "notes": "First release: records chest contents into a shared drop-rate database. Item lookup window with observed drop chances and sample sizes, hourly sync with offline cache, self-update."
+}
