@@ -1,0 +1,5 @@
+{
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoaggro/ddoaggro-0.7.0.zip",
+  "version": "0.7.0",
+  "notes": "Aggro Watch: live table of which player/pet each monster is targeting, first-puller attribution and a pull leaderboard. First published release. Also adds background loot collection: chest contents feed the shared community drop-rate database. Only one plugin per game client reports, so running several together never double-counts. Install the ddoloot plugin to browse the data."
+}

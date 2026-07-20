@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.7.0.zip",
-  "version": "0.7.0",
-  "notes": "DPS is now tracked per character level: your Power Level row shows your number at your current level plus the average across everyone tracked at that level, so a level 32 score is no longer diluted by samples logged at level 5. Also includes 0.6.0 (unreleased): a single shared popup across all running clients, with a 'Show here' button to move it."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.8.0.zip",
+  "version": "0.8.0",
+  "notes": "Per-character-level DPS tracking and the single shared popup across clients. Also adds background loot collection: chest contents feed the shared community drop-rate database. Only one plugin per game client reports, so running several together never double-counts. Install the ddoloot plugin to browse the data."
 }

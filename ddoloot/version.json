@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoloot/ddoloot-0.2.0.zip",
-  "version": "0.2.0",
-  "notes": "Stack tracking: components that drop as 4/5/6/7 now group into one row with a stack-size distribution chart and average quantity. Item names are normalised (stack counts stripped, plurals singularised) since clients report the same item under different names. Fixes difficulty being polluted by loot rarity - DifficultyType also carries Common/Uncommon/Rare/Named values, which split a single run into bogus pools."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoloot/ddoloot-0.3.0.zip",
+  "version": "0.3.0",
+  "notes": "Loot collection moves to the shared collector now embedded in every plugin, so chests are recorded even without this plugin running - this one remains the way to BROWSE the data (item lookup, drop chances, stack distributions). The panel now shows whether this client is the reporting one."
 }
