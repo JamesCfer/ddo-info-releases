@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoloot/ddoloot-0.1.0.zip",
-  "version": "0.1.0",
-  "notes": "First release: records chest contents into a shared drop-rate database. Item lookup window with observed drop chances and sample sizes, hourly sync with offline cache, self-update."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoloot/ddoloot-0.1.1.zip",
+  "version": "0.1.1",
+  "notes": "Fixes difficulty detection. The dungeon portal reports difficulty as a property DID (e.g. Dungeon_EpicReaperDifficulty), not a DifficultyType ordinal, and reading it as an ordinal threw ArgumentException and lost the chest. Labels now derive from the client's own property names (Epic Reaper, Epic Elite, Fabled, ...), and reaper skulls read from Dungeon_CachedReaperLevel."
 }
