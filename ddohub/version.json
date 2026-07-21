@@ -1,0 +1,5 @@
+{
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddohub/ddohub-0.1.0.zip",
+  "version": "0.1.0",
+  "notes": "First release: a plugin hub that lists every DDO plugin with its latest and installed version, and installs any of them in one click. Restart DungeonHelper after installing to load a new plugin. Self-updates."
+}
