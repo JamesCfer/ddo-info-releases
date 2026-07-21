@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoloot/ddoloot-0.3.0.zip",
-  "version": "0.3.0",
-  "notes": "Loot collection moves to the shared collector now embedded in every plugin, so chests are recorded even without this plugin running - this one remains the way to BROWSE the data (item lookup, drop chances, stack distributions). The panel now shows whether this client is the reporting one."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoloot/ddoloot-0.3.1.zip",
+  "version": "0.3.1",
+  "notes": "Item lookup now shows one row per item. When an item drops in several quests or difficulties, they are listed comma-separated instead of repeating the item on many rows. The drop % is pooled across those contexts, with a per-context breakdown (each quest/difficulty and its own rate) in the panel below, plus the merged stack-size histogram."
 }
