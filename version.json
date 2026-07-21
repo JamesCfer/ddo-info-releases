@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.9.0.zip",
-  "version": "0.9.0",
-  "notes": "Power level is now tracked per difficulty. A new 'Power by difficulty' popup row shows your DPS in each difficulty you've run - Reaper 10 down to Reaper 1, Elite, Normal, Casual, epic/legendary variants, and Out of Quest - hardest first. Difficulty detection also fixed: it now reads the dungeon portal (which actually works on live) instead of the dead character-side properties, so the reaper-skull normalisation and the Quest Difficulty row work too."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.9.1.zip",
+  "version": "0.9.1",
+  "notes": "One-time reset of the popup rows: on this update everyone's ticked rows are set to Fight status, Power level, Power by difficulty, all three Party DPS readouts, and Aggro (mobs per player) — everything else off. This happens once; anything you re-enable afterward sticks. Window position and whether the popup is shown are untouched. (Adds to 0.9.0's per-difficulty power levels.)"
 }
