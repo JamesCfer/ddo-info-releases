@@ -1,0 +1,54 @@
+{
+  "updated": "2026-07-21",
+  "plugins": [
+    {
+      "key": "ddopowerlevel",
+      "name": "Power Level",
+      "author": "jamescfer",
+      "description": "Party DPS / power-level overlay with per-difficulty and per-level community comparisons.",
+      "manifest": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/version.json"
+    },
+    {
+      "key": "ddoloot",
+      "name": "Loot Tracker",
+      "author": "jamescfer",
+      "description": "Records chest loot into a shared database of drop locations and drop rates, with an item lookup.",
+      "manifest": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoloot/version.json"
+    },
+    {
+      "key": "ddoquestxp",
+      "name": "Quest XP",
+      "author": "jamescfer",
+      "description": "Tracks quest XP and run time into a shared database, ranked by XP per minute per level.",
+      "manifest": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoquestxp/version.json"
+    },
+    {
+      "key": "ddocodes",
+      "name": "Code Caller",
+      "author": "jamescfer",
+      "description": "Sends chat codes to NPCs in an ordered, range-gated sequence, with import/export.",
+      "manifest": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddocodes/version.json"
+    },
+    {
+      "key": "ddoaggro",
+      "name": "Aggro Watch",
+      "author": "jamescfer",
+      "description": "Shows which player, hireling or pet each nearby monster is targeting, with pull attribution.",
+      "manifest": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoaggro/version.json"
+    },
+    {
+      "key": "ddoassistant",
+      "name": "Player Assistant",
+      "author": "jamescfer",
+      "description": "Combat assistant: DC caster and healer automation that reads your hotbars.",
+      "manifest": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/version.json"
+    },
+    {
+      "key": "ddotrcache",
+      "name": "Empty the TR Cache",
+      "author": "jamescfer",
+      "description": "Moves items out of the reincarnation cache into your bank (duplicates first), then your backpack.",
+      "manifest": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddotrcache/version.json"
+    }
+  ]
+}
