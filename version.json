@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.8.0.zip",
-  "version": "0.8.0",
-  "notes": "Per-character-level DPS tracking and the single shared popup across clients. Also adds background loot collection: chest contents feed the shared community drop-rate database. Only one plugin per game client reports, so running several together never double-counts. Install the ddoloot plugin to browse the data."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.9.0.zip",
+  "version": "0.9.0",
+  "notes": "Power level is now tracked per difficulty. A new 'Power by difficulty' popup row shows your DPS in each difficulty you've run - Reaper 10 down to Reaper 1, Elite, Normal, Casual, epic/legendary variants, and Out of Quest - hardest first. Difficulty detection also fixed: it now reads the dungeon portal (which actually works on live) instead of the dead character-side properties, so the reaper-skull normalisation and the Quest Difficulty row work too."
 }
