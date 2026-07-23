@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.4.0.zip",
-  "version": "0.4.0",
-  "notes": "DC caster now avoids named bosses at high level: once your character is above level 20, boss-flagged (red/purple-name) monsters are skipped by ALL DC spells — no wasted instakills or CC on mobs immune to them. Also adds Trap the Soul to the tracked spell list (single-target Death-family instakill, disabled by default since it consumes a filled gem per cast)."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.4.1.zip",
+  "version": "0.4.1",
+  "notes": "Smarter death-ward/deathblock avoidance: instead of firing three blind instakills to learn a mob is immune, the caster now watches whether the target SURVIVES the cast — two confirmed survivals of a death effect and it stops wasting that spell family on the mob. A cast that actually kills never counts, so it learns faster and truer. (Death ward/deathblock can't be read directly off a target — the SDK exposes no per-target effect list — so this behavioral check is the accurate way to detect it.)"
 }
