@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.3.0.zip",
-  "version": "0.3.0",
-  "notes": "Player Assistant: DC caster and Healer automation with threat-first targeting, pack-aware AoE and reaper immunity handling. First published release. Also adds background loot collection: chest contents feed the shared community drop-rate database. Only one plugin per game client reports, so running several together never double-counts. Install the ddoloot plugin to browse the data."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.3.1.zip",
+  "version": "0.3.1",
+  "notes": "Adds Trap the Soul to the DC caster's tracked spell list (single-target Death-family instakill). Ships disabled by default since it consumes a filled gem per cast — arm it in the panel to enable. Uses a 15s local cooldown fallback."
 }
