@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.5.0.zip",
-  "version": "0.5.0",
-  "notes": "Faster healing and more cleric heals. The Healer now runs on its own quicker think interval and a shorter re-fire guard, and the cast gap was tightened, so spells go off promptly once they are actually ready instead of waiting out an extra beat. New heals: Panacea, Positive Energy Burst, Cure Minor Wounds, Mass Lesser/Greater Vigor, Mass Vigor and Mass Regenerate. Self-centred burst heals are now handled correctly (measured from the caster, no target selection), and mass heal-over-time spells no longer re-cast while still ticking on the group."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.6.0.zip",
+  "version": "0.6.0",
+  "notes": "Healer 'infinite SP' mode. New ∞ SP toggle next to the Healer switch: in the gaps between real heals it keeps Close Wounds firing on you, so a build that returns spell points when it casts cure spells can sustain its SP loop hands-free. It never fires in place of a real heal, respects your spell points (so it can't drain you on its own), and casts without stealing your current target. Needs the Healer toggle on and Close Wounds on a hotbar."
 }

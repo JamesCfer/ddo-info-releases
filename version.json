@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.10.0.zip",
-  "version": "0.10.0",
-  "notes": "Stability: the plugin now stays out of the DDO SDK during the moment each quest/zone loads and unloads — the fragile window where the game was most likely crashing — by pausing its background timers for a few seconds around every transition. Adds a 'Restart plugin' button in the sidebar that rebuilds this plugin's own overlay and timers without touching DungeonHelper (use it if the popup ever freezes), and health logging so any remaining crash can finally be diagnosed. Also quiets the state-file write spam."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.12.0.zip",
+  "version": "0.12.0",
+  "notes": "Redesigned popup and death timers. The overlay has been rebuilt to look like DDO's own panels — a sleeker rounded frame, a two-column layout so every number lines up on the right, the Power Level shown as a big readout with a confidence bar, and Party HP drawn as a real gauge. New 'Death timers' row: after a death in a raid or reaper quest it shows each party member's remaining death-penalty countdown (whichever of the raid or reaper timer is longer), most-urgent first. The two durations are tunable in the sidebar panel. Also fixes the stale 'Party DPS 44,000 while idle' reading that could show for a moment between fights."
 }
