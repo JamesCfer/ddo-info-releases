@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.6.0.zip",
-  "version": "0.6.0",
-  "notes": "Healer 'infinite SP' mode. New ∞ SP toggle next to the Healer switch: in the gaps between real heals it keeps Close Wounds firing on you, so a build that returns spell points when it casts cure spells can sustain its SP loop hands-free. It never fires in place of a real heal, respects your spell points (so it can't drain you on its own), and casts without stealing your current target. Needs the Healer toggle on and Close Wounds on a hotbar."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.6.1.zip",
+  "version": "0.6.1",
+  "notes": "Healer 'infinite SP' mode. New ∞ SP toggle next to the Healer switch: in the gaps between real heals it keeps Close Wounds firing on you, so a build that returns spell points when it casts cure spells can sustain its SP loop hands-free. It never fires in place of a real heal, respects your spell points (so it can't drain you on its own), and casts without stealing your current target. Needs the Healer toggle on and Close Wounds on a hotbar. (0.6.1: corrected Close Wounds' cooldown to 1 second.)"
 }
