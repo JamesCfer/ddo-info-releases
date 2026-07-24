@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.4.1.zip",
-  "version": "0.4.1",
-  "notes": "Smarter death-ward/deathblock avoidance: instead of firing three blind instakills to learn a mob is immune, the caster now watches whether the target SURVIVES the cast — two confirmed survivals of a death effect and it stops wasting that spell family on the mob. A cast that actually kills never counts, so it learns faster and truer. (Death ward/deathblock can't be read directly off a target — the SDK exposes no per-target effect list — so this behavioral check is the accurate way to detect it.)"
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.5.0.zip",
+  "version": "0.5.0",
+  "notes": "Faster healing and more cleric heals. The Healer now runs on its own quicker think interval and a shorter re-fire guard, and the cast gap was tightened, so spells go off promptly once they are actually ready instead of waiting out an extra beat. New heals: Panacea, Positive Energy Burst, Cure Minor Wounds, Mass Lesser/Greater Vigor, Mass Vigor and Mass Regenerate. Self-centred burst heals are now handled correctly (measured from the caster, no target selection), and mass heal-over-time spells no longer re-cast while still ticking on the group."
 }
