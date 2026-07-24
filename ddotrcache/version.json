@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddotrcache/ddotrcache-0.17.0.zip",
-  "version": "0.17.0",
-  "notes": "Empty the TR Cache: reads the cache via BankDataMessage and moves items to bank/backpack with every move server-confirmed. First published release. Also adds background loot collection: chest contents feed the shared community drop-rate database. Only one plugin per game client reports, so running several together never double-counts. Install the ddoloot plugin to browse the data."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddotrcache/ddotrcache-0.18.0.zip",
+  "version": "0.18.0",
+  "notes": "Empty the TR Cache now opens your inventory for you. Some players were told the run couldn't start because their inventory window wasn't open — but standing at the TR NPC you usually only have the cache and bank up, not your pack. The plugin now opens the inventory itself (the same action as the inventory keybind) instead of refusing, and reopens it if the bank fills and overflow needs somewhere to land. There's a new 'Open inventory' option (on by default) if you'd rather it never touched your inventory. The cache and bank still have to be opened at the NPC — the game gives no way to open those remotely."
 }
