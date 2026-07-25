@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddohub/ddohub-0.4.0.zip",
-  "version": "0.4.0",
-  "notes": "The hub is now an overlay, not a separate window. Clicking its DungeonHelper toolbar icon opens the whole thing in place — nav list, plugin pages and all — the same way every other plugin's panel appears over the game, instead of launching a window of its own. If you want more room, the ⧉ button in the top right moves it into a floating window and back again; your plugins keep running untouched either way. The plugin list also scrolls now: with a dozen or more plugins the list no longer runs off the bottom. Use the mouse wheel or drag the slim bar on its right edge, and selecting a plugin always brings it into view."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddohub/ddohub-0.4.1.zip",
+  "version": "0.4.1",
+  "notes": "Fixes 0.4.0 stalling DungeonHelper and covering its toolbar. Two mistakes: the hub's panel was sized to hold the entire interface, so it sat on top of DungeonHelper's own bar, and drawing the plugin list asked every hosted plugin for its icon — which quietly built each one's whole window while DungeonHelper was still starting up. The DungeonHelper panel is small again with an 'Open Plugin Hub' button, and opening the hub costs nothing until you press it. The hub now opens as a proper overlay: a borderless window that floats above the game, centred on your client, dragged by its title bar, resizable from any edge, and kept out of the taskbar. Plugin icons fill into the list a moment after it opens rather than all at once, so it appears instantly however many plugins you have."
 }
