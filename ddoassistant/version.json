@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.7.1.zip",
-  "version": "0.7.1",
-  "notes": "SLAs now appear in the spell list. 0.7.0 only recognised spellbook spells, because the game treats a spell-like ability as a completely different kind of thing internally — so every enhancement-tree, destiny and action-boost ability was invisible. The scan is now built around the game's generic ability model instead, which covers spells and SLAs alike: each one shows with its icon, an 'SLA' tag so you can tell it apart from a same-named spell, and its real cooldown read straight from the ability itself. Friendly-targeted abilities are no longer guessed as heals unless they actually look like healing (Haste was being suggested as a heal). New 'Show all' checkbox lists every hotbar entry if something you want still isn't there, and the Unassigned group header shows how many entries were found."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.8.0.zip",
+  "version": "0.8.0",
+  "notes": "Settings are now PER CHARACTER. Your spell list, the types you assigned, which spells are toggled on, the module switches and all the tuning values are remembered separately for each character and follow whoever you log in as — so your wizard's instakill loadout and your cleric's heal list stop overwriting each other. The panel shows whose settings are on screen. A character you log into for the first time inherits your existing settings as its starting point, so nothing is lost in the upgrade. This also fixes multiboxing: two clients running two characters now write two different files instead of clobbering each other."
 }
