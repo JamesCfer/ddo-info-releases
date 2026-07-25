@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddohub/ddohub-0.1.0.zip",
-  "version": "0.1.0",
-  "notes": "First release: a plugin hub that lists every DDO plugin with its latest and installed version, and installs any of them in one click. Restart DungeonHelper after installing to load a new plugin. Self-updates."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddohub/ddohub-0.2.0.zip",
+  "version": "0.2.0",
+  "notes": "The hub can now RUN your plugins, not just install them. Move a plugin into the hub and it stops putting its own icon on the DungeonHelper toolbar — instead it appears in the hub's sidebar and its panel opens inside the hub window. DungeonHelper is left with fewer plugins on the bar, which is what it copes with best, and you get everything behind one icon. Rebuilt interface: a nav list on the left with each plugin's own icon, its page on the right, and an 'All plugins' page for installing, updating, and moving plugins between the hub and DungeonHelper. Any plugin already on your machine can be moved in, including ones that aren't in the catalogue. Moves are reversible from the same screen, your settings travel with the plugin, and anything that fails to load is listed with the reason instead of silently disappearing. Restart DungeonHelper after moving or installing."
 }

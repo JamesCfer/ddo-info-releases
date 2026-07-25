@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-21",
+  "updated": "2026-07-25",
   "plugins": [
     {
       "key": "ddohub",
       "name": "Plugin Hub",
       "author": "jamescfer",
-      "description": "This hub. Browse and one-click install the DDO plugins (self-updates).",
+      "description": "This hub. Installs the DDO plugins and can run them inside itself, so they don't each need an icon on the DungeonHelper bar.",
       "manifest": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddohub/version.json"
     },
     {
