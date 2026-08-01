@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddotrcache/ddotrcache-0.18.0.zip",
-  "version": "0.18.0",
-  "notes": "Empty the TR Cache now opens your inventory for you. Some players were told the run couldn't start because their inventory window wasn't open — but standing at the TR NPC you usually only have the cache and bank up, not your pack. The plugin now opens the inventory itself (the same action as the inventory keybind) instead of refusing, and reopens it if the bank fills and overflow needs somewhere to land. There's a new 'Open inventory' option (on by default) if you'd rather it never touched your inventory. The cache and bank still have to be opened at the NPC — the game gives no way to open those remotely."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddotrcache/ddotrcache-0.20.0.zip",
+  "version": "0.20.0",
+  "notes": "Fixed two causes of runs that moved nothing, or moved the wrong thing, for some players. First: if you'd last visited the Shared/Account Bank tab, the plugin could mistake it for your character bank and drop items there instead — it now refuses to ever target the account bank, and switches you to the character bank tab itself before a run starts. Second: on displays running Windows scaling other than 100% (very common on laptops and 4K monitors), the real-cursor drag could land at the wrong physical point on screen, sometimes off it entirely, because of a DPI mismatch between the plugin's input calls and the game's own coordinates — that mismatch is now corrected for every real-cursor call, including calibration."
 }
