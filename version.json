@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.13.0.zip",
-  "version": "0.13.0",
-  "notes": "\"Power by difficulty\" is no longer an always-on row in the overlay — hover the Power Level number to pop up the per-difficulty breakdown next to it, then it disappears when you move away. Keeps the panel's height from growing every time you enable that row."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.13.1.zip",
+  "version": "0.13.1",
+  "notes": "\"Power by difficulty\" is no longer an always-on row in the overlay — hover the Power Level number to pop up the per-difficulty breakdown next to it, then it disappears when you move away. Also fixes self-update never landing for multiboxed sessions: every client sharing a plugin folder was racing to stage the same update at once and silently stomping each other."
 }
