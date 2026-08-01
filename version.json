@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.12.1.zip",
-  "version": "0.12.1",
-  "notes": "Polish pass on the overlay. The big Power Level number no longer gets clipped — on any monitor, at any Windows display-scaling setting, at any panel width (very wide numbers now shrink to fit instead of running off the edge). Party HP, section headings and all stat rows also size themselves to the actual text now, so nothing gets cut off at 125%/150% display scaling, and a long value takes space from its label instead of losing its leading digits."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddopowerlevel-0.13.0.zip",
+  "version": "0.13.0",
+  "notes": "\"Power by difficulty\" is no longer an always-on row in the overlay — hover the Power Level number to pop up the per-difficulty breakdown next to it, then it disappears when you move away. Keeps the panel's height from growing every time you enable that row."
 }
