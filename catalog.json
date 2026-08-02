@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25",
+  "updated": "2026-08-01",
   "plugins": [
     {
       "key": "ddohub",
@@ -56,6 +56,13 @@
       "author": "jamescfer",
       "description": "Moves items out of the reincarnation cache into your bank (duplicates first), then your backpack.",
       "manifest": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddotrcache/version.json"
+    },
+    {
+      "key": "ddogear",
+      "name": "Gear Inspector",
+      "author": "jamescfer",
+      "description": "Lists every item your character has equipped with its description, effects and augment slots, and exports the lot as CSV or plain text.",
+      "manifest": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddogear/version.json"
     }
   ]
 }

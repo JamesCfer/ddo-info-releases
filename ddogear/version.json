@@ -1,0 +1,5 @@
+{
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddogear/ddogear-0.6.4.zip",
+  "version": "0.6.4",
+  "notes": "Fixed effects showing their name and description but not their rolled number (e.g. \"Assassinate +\" instead of \"Assassinate +5\"). Most equipment effects resolve through a shared template that never carries the number — only a live examine of that specific item does — so an item whose examine hadn't been (fully) picked up yet would silently show number-shaped text with the number missing. The scan now detects this and includes those items in the \"hover this item, then scan again\" reminder instead of treating them as done."
+}
