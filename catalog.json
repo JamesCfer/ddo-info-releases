@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01",
+  "updated": "2026-09-05",
   "plugins": [
     {
       "key": "ddohub",
@@ -63,6 +63,13 @@
       "author": "jamescfer",
       "description": "Lists every item your character has equipped with its description, effects and augment slots, and exports the lot as CSV or plain text.",
       "manifest": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddogear/version.json"
+    },
+    {
+      "key": "ddocompass",
+      "name": "Minimap Compass",
+      "author": "jamescfer",
+      "description": "Draws N / S / E / W around the edge of the in-game minimap, with optional intercardinals, ring and ticks.",
+      "manifest": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddocompass/version.json"
     }
   ]
 }

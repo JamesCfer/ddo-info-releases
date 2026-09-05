@@ -1,0 +1,5 @@
+{
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddocompass/ddocompass-0.4.1.zip",
+  "version": "0.4.1",
+  "notes": "Minimap Compass: puts N, S, E and W around the edge of the in-game minimap, with optional NE/SE/SW/NW, a ring and tick marks. North is drawn in red so you can find it without reading. First published release. The overlay is click-through and never takes focus, so it cannot pull you out of the game, and it hides itself when the minimap is closed or when another client is in front. Everything is measured as a ratio of the minimap the client reports, so it follows your window size, a resized minimap and any UI scale; the placement is adjustable in the panel if your radar is proportioned differently."
+}
