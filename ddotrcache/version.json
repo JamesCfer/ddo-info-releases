@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddotrcache/ddotrcache-0.20.0.zip",
-  "version": "0.20.0",
-  "notes": "Fixed two causes of runs that moved nothing, or moved the wrong thing, for some players. First: if you'd last visited the Shared/Account Bank tab, the plugin could mistake it for your character bank and drop items there instead — it now refuses to ever target the account bank, and switches you to the character bank tab itself before a run starts. Second: on displays running Windows scaling other than 100% (very common on laptops and 4K monitors), the real-cursor drag could land at the wrong physical point on screen, sometimes off it entirely, because of a DPI mismatch between the plugin's input calls and the game's own coordinates — that mismatch is now corrected for every real-cursor call, including calibration."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddotrcache/ddotrcache-0.21.0.zip",
+  "version": "0.21.0",
+  "notes": "Log lines from several threads no longer get lost, button actions are guarded against game errors, and leaked fonts and handlers are released. Also restart-safe: the Plugin Hub can now restart it every 10 minutes (change or turn off on the hub's Diagnostics page) so long sessions stay smooth, and settings and progress carry over. Settings files are now saved safely, so a crash can no longer reset them."
 }

@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoquestxp/ddoquestxp-0.3.0.zip",
-  "version": "0.3.0",
-  "notes": "Quest XP/time tracking into the shared database. Also adds background loot collection: chest contents feed the shared community drop-rate database. Only one plugin per game client reports, so running several together never double-counts. Install the ddoloot plugin to browse the data."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoquestxp/ddoquestxp-0.4.0.zip",
+  "version": "0.4.0",
+  "notes": "Fixes a logout race that could throw an error, and the panel no longer creates new fonts and brushes every second. Also restart-safe: the Plugin Hub can now restart it every 10 minutes (change or turn off on the hub's Diagnostics page) so long sessions stay smooth, and settings and progress carry over. Settings files are now saved safely, so a crash can no longer reset them."
 }

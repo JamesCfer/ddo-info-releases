@@ -1,0 +1,5 @@
+{
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddochat/ddochat-0.9.0.zip",
+  "version": "0.9.0",
+  "notes": "Chat lines reach the window in batches, one update per batch instead of one per line, and the chat reader reuses its memory buffers instead of allocating megabytes several times a second. Also restart-safe: the Plugin Hub can now restart it every 10 minutes (change or turn off on the hub's Diagnostics page) so long sessions stay smooth, and settings and progress carry over. Settings files are now saved safely, so a crash can no longer reset them."
+}

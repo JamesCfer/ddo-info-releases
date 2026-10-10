@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddocompass/ddocompass-0.4.2.zip",
-  "version": "0.4.2",
-  "notes": "Minimap Compass now keeps itself up to date: it checks this manifest on every DungeonHelper start, downloads any newer build and swaps it in on shutdown, so the next launch is current. The settings panel shows where the check got to. The swap now retries until DungeonHelper has released the file instead of giving up after four seconds and discarding the download, and an update staged by a session that was closed abruptly is still applied the next time DH shuts down cleanly."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddocompass/ddocompass-0.5.0.zip",
+  "version": "0.5.0",
+  "notes": "The overlay only redraws when the minimap or your heading changes, instead of about 16 times a second. Also restart-safe: the Plugin Hub can now restart it every 10 minutes (change or turn off on the hub's Diagnostics page) so long sessions stay smooth, and settings and progress carry over. Settings files are now saved safely, so a crash can no longer reset them."
 }

@@ -1,0 +1,5 @@
+{
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddomassabandon/ddomassabandon-0.2.0.zip",
+  "version": "0.2.0",
+  "notes": "Overlapping ticks could abandon twice; they can't now. Fixes a crash when DungeonHelper closes during an abandon, and the status list only rebuilds when it changes. Also restart-safe: the Plugin Hub can now restart it every 10 minutes (change or turn off on the hub's Diagnostics page) so long sessions stay smooth, and settings and progress carry over. Settings files are now saved safely, so a crash can no longer reset them."
+}

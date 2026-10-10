@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.10.0.zip",
-  "version": "0.10.0",
-  "notes": "Casts as fast as the game allows. The gap between casts used to be a fixed guess that had to be pessimistic enough for the slowest spell, so every fast spell wasted the difference — and four separate delays stacked on top of each other, leaving a ready spell idle for over a second. It now reads what your character is actually doing and fires the moment the previous cast finishes, instead of waiting out a timer. On top of that: the think interval is twice as quick, the wait before a spell can be considered ready again dropped from 1.5 seconds to 0.4, and it no longer re-selects a target that is already selected — which cost a wasted pause on every cast at the same enemy. If the game won't report cast state it falls back to the old fixed gap, so nothing spams keys blindly. Tuning values you changed yourself are left alone; ones still on the old defaults are brought forward."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddoassistant/ddoassistant-0.32.0.zip",
+  "version": "0.32.0",
+  "notes": "Fixes a thread race in the DC caster, a duplicated cast tracker, spell-library saves colliding between clients, and per-monster data that grew forever. The spell catalog lookup is cached instead of repeated every tick. Also restart-safe: the Plugin Hub can now restart it every 10 minutes (change or turn off on the hub's Diagnostics page) so long sessions stay smooth, and settings and progress carry over. Settings files are now saved safely, so a crash can no longer reset them."
 }

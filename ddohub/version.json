@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddohub/ddohub-0.5.0.zip",
-  "version": "0.5.0",
-  "notes": "Fixes Awesome AF (and other authors' plugins) not working. Earlier versions took over EVERY plugin on the machine, including ones written by other people. Awesome AF loaded without a single error but stopped working, because it coordinates your game clients through a shared mutex, shared memory and injected keystrokes and is built around DungeonHelper loading it — which is not something the hub can verify or fix from outside. So it no longer takes over plugins it doesn't own: only this hub's own plugins move in automatically, and any other author's plugin already moved in is handed back to DungeonHelper once, automatically, on the next start. Restart DungeonHelper afterwards and they will run as they did before. You can still move any plugin in by hand from All plugins if you want to try it, and that choice is respected — it won't be handed back again."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddohub/ddohub-0.7.0.zip",
+  "version": "0.7.0",
+  "notes": "Keeps your plugins healthy over long sessions: every plugin running inside the hub is now restarted automatically every 10 minutes (set the interval, or 0 to turn it off, on the Diagnostics page, which also shows uptime and restart counts). A plugin that is busy, for example mid-cast or mid-run, is left alone until it is done. Chat Reader, Minimap Compass, Gear Inspector and Mass Abandon now move into the hub too. Also fixes a path problem in plugin installs and makes hosted.json saves crash-safe."
 }

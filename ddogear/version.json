@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddogear/ddogear-0.7.0.zip",
-  "version": "0.7.0",
-  "notes": "Missing numbers now fill themselves in: pressing Scan automatically examines any item whose effects still show a bare \"+\" with no value (the game only sends the rolled number when that specific item is examined). No more hovering each item by hand — the scan selects and examines them for you, one at a time, then puts your original target back. Items examined once are remembered permanently, so this normally only happens on a first scan. Also fixed a weapon with \"+(W) damage\" being flagged as missing a number forever, and guarded the remembered-item store against the client occasionally reporting your character name as a number."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddogear/ddogear-0.8.0.zip",
+  "version": "0.8.0",
+  "notes": "Saves from two game clients no longer collide, and the examine cache stops collecting after shutdown. Also restart-safe: the Plugin Hub can now restart it every 10 minutes (change or turn off on the hub's Diagnostics page) so long sessions stay smooth, and settings and progress carry over. Settings files are now saved safely, so a crash can no longer reset them."
 }

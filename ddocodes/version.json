@@ -1,5 +1,5 @@
 {
-  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddocodes/ddocodes-0.3.0.zip",
-  "version": "0.3.0",
-  "notes": "Code Caller sequences with import/export and preinstalled defaults. Also adds background loot collection: chest contents feed the shared community drop-rate database. Only one plugin per game client reports, so running several together never double-counts. Install the ddoloot plugin to browse the data."
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/ddocodes/ddocodes-0.4.0.zip",
+  "version": "0.4.0",
+  "notes": "The timer can no longer overlap and send the same code twice, and auto-fire and the Test button can no longer type into chat at the same time. Also restart-safe: the Plugin Hub can now restart it every 10 minutes (change or turn off on the hub's Diagnostics page) so long sessions stay smooth, and settings and progress carry over. Settings files are now saved safely, so a crash can no longer reset them."
 }

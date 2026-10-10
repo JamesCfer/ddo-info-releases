@@ -1,0 +1,5 @@
+{
+  "zip_url": "https://raw.githubusercontent.com/JamesCfer/ddo-info-releases/main/platinumhireling/platinumhireling-0.18.0.zip",
+  "version": "0.18.0",
+  "notes": "Fixes a character that could keep running after the plugin unloaded, timers and overlays that kept going after unload, a failed read that could wipe all settings, and map data that could be skipped when leaving a map. config.json is cached instead of re-read many times a second. Also restart-safe: the Plugin Hub can now restart it every 10 minutes (change or turn off on the hub's Diagnostics page) so long sessions stay smooth, and settings and progress carry over. Settings files are now saved safely, so a crash can no longer reset them."
+}
